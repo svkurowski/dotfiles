@@ -23,3 +23,8 @@ Thus, to install my **git** configuration use the command:
 To uninstall the configuration use:
 
     stow -D git
+
+## Configurations
+
+- [git](git/)
+- [zsh](zsh/)
