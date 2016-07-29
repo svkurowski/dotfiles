@@ -29,9 +29,13 @@ zstyle ':prezto:load' pmodule \
   'editor' \
   'history' \
   'directory' \
+  'git' \
+  'command-not-found' \
   'spectrum' \
   'utility' \
   'completion' \
+  'syntax-highlighting' \
+  'history-substring-search' \
   'prompt'
 
 #
