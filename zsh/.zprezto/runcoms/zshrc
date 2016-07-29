@@ -11,3 +11,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+if [[ -d "${ZDOTDIR:-$HOME}/bin" ]]; then
+  path=(
+    "${ZDOTDIR:-$HOME}/bin"
+    $path
+  )
+  export PATH
+fi
